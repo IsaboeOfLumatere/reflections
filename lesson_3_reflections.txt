@@ -29,3 +29,11 @@ Question: What is the benefit of having a copy of the last known state of the re
 
 Answer: It aids in merging versions of the repository on GitHub and locally. Programmers
 		can see exactly what changes have been made both locally and on the servers.
+
+
+Question: How would you collaborate without using Git or GitHub? What would be easier,
+		  and what would be harder?
+
+Answer: I suppose it would be possible to share files via email or some other sharing
+		system (e.g. Google Drive or Dropbox), but it seems exceedingly clumsy,
+		especially since they were not specialized for coders and Git / GitHub is.
