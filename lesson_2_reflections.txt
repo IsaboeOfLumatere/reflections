@@ -1,0 +1,17 @@
+Question: What happens when you initialize a repository? Why do you need to do it?
+
+Answer: When you create a repository in a directory that already contains files,
+		Git simply creates a new repository with those files. Otherwise, the repository
+		remains empty. Repositories are incredibly useful for version control in
+		Git.
+
+
+Question: How is the staging area different from the working directory and repository?
+		  What value do you think it offers?
+
+Answer: The staging area serves as an intermediate step between the working directory
+		and repository. It offers more control to the user over what to commit and
+		what not to.
+
+
+Question: 
