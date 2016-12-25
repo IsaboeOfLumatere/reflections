@@ -45,4 +45,10 @@ Answer: The history and state of the files merge together into one branch, repre
 		this way because that's kind of what happens?
 
 
-Question:
+Question: What are the pros and cons of Git's automatic merging vs. always doing
+		  merges manually?
+
+Answer: Git's automatic merging makes life easier for programmers, ensuring that
+		simple merges don't have to be done by hand. However, by always manually
+		doing merges, programmers can ensure that Git doesn't mistakenly merge lines
+		that should not have been merged.
