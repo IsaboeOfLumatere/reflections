@@ -35,3 +35,14 @@ Question: How do the diagrams help you visualize the branch structure?
 
 Answer: Since git branches and commits are very often non-linear, a diagram can
 		help you understand exactly which commits and branches connect to which.
+
+
+Question: What is the result of merging two branches together? Why do we represent
+		  it in the diagram the way we do?
+
+Answer: The history and state of the files merge together into one branch, represented
+		by the two branches merging together to form a new commit. It's represented
+		this way because that's kind of what happens?
+
+
+Question:
