@@ -4,3 +4,10 @@ Question: When would you want to use a remote repository rather than keeping all
 Answer: A remote repository will be extremely useful when collaborating with other
 		programmers and to make sure you won't lose all your work if your computer
 		decides to crash one day.
+
+
+Question: Why might you want to always pull changes manually rather than having
+		  Git automatically stay up-to-date with your remote repository?
+
+Answer: Like committing manually instead of automatically, pulling manually allows
+		each pull to be meaningful, without updating more than necessary.
