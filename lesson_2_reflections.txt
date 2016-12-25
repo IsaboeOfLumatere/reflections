@@ -14,4 +14,24 @@ Answer: The staging area serves as an intermediate step between the working dire
 		what not to.
 
 
-Question: 
+Question: How can you use the staging area to make sure you have one commit per
+		  logical change?
+
+Answer: You can use git diff --staged to see the changes between the staging area
+		and the most recent commit, so you know that when you commit the changes
+		in the staging area, they will be a logical change.
+
+
+Question: What are some situations when branches woiuld be helpful in keeping your
+		  history organized? How would branches help?
+
+Answer: Branches are helpful when you want to try an experimental feature or change
+		something fundamental that might break your code. Thus, if the feature or
+		change ends up working, you can always merge back with the master branch,
+		but if the code breaks, you still have the master version to work with.
+
+
+Question: How do the diagrams help you visualize the branch structure?
+
+Answer: Since git branches and commits are very often non-linear, a diagram can
+		help you understand exactly which commits and branches connect to which.
