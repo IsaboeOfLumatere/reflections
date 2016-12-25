@@ -37,3 +37,12 @@ Question: How would you collaborate without using Git or GitHub? What would be e
 Answer: I suppose it would be possible to share files via email or some other sharing
 		system (e.g. Google Drive or Dropbox), but it seems exceedingly clumsy,
 		especially since they were not specialized for coders and Git / GitHub is.
+
+
+Question: When would you wantt to make changes in a separate bunch rather than
+		  directly in master? What benefits does each approach have?
+
+Answer: Small changes can be made in master, while large or fundamental changes
+		should be made in a separate branch. Making changes in one branch bundles
+		the changes together, making them easy to track, while separating bigger
+		changes out into a separate branch ensures that master always works.
