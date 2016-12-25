@@ -11,3 +11,14 @@ Question: Why might you want to always pull changes manually rather than having
 
 Answer: Like committing manually instead of automatically, pulling manually allows
 		each pull to be meaningful, without updating more than necessary.
+
+
+Question: Describe the differences between forks, clones, and branches. When would
+		  you use one instead of the other?
+
+Answer: Branches are for changes within a repository. Clones are to copy one repository
+		into another either locally or between Github and the local coimputer. Forks
+		are to copy repositories solely within Github. Branches are used when testing
+		experimental features or fundamental changes; forks are used to keep a copied
+		repository in the cloud and easily give credit to the original repository,
+		and clones are used for copying repositories in other situations.
